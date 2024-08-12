@@ -1,4 +1,4 @@
-import React, { useState }from "react";
+import React from "react";
 
 function PupInfo({dog, onGoodBadDogClick}) {
     const {id,image,isGoodDog,name} = dog[0];
